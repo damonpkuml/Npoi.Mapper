@@ -45,6 +45,7 @@ namespace Npoi.Mapper
                 typeToCheck == typeof(DateTimeOffset) ||
                 typeToCheck == typeof(TimeSpan) ||
                 typeToCheck == typeof(Guid) ||
+                typeToCheck == typeof(bool) ||
                 NumericTypes.Contains(typeToCheck);
         }
     }
